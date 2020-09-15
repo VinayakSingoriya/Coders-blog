@@ -1,6 +1,6 @@
 import os
 class Config:
-    SECRET_KEY = os.environ.get('secret_key')
+    SECRET_KEY = '8c95cc7a49e1dacbec6ce1b28d'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///site.db'
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
